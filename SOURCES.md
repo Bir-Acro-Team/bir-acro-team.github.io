@@ -27,6 +27,17 @@ All original media rights remain with their respective creators.
 - [24 September 2025 — landing short](https://www.youtube.com/shorts/OI5kBYepw-I): inspected from the same channel and selected for the landing scene. Full clip preserved at 720×1280, encoded for browser playback at 30 fps, with a still extracted at 00:03. Displayed as “Back to earth”, an editorial label.
 - Both clips retain original audio, preserve the full portrait frame, and include links to their original YouTube Shorts. Native video controls provide sound, scrubbing and fullscreen. No pilot identity or specific maneuver attribution was inferred from these clips.
 
+## Story copy from the embedded subtitles
+
+At the user’s request, generic headline and story copy was replaced with concise paraphrases of the feature film’s narrative. The English automatic caption track was retrieved but contained only disconnected phrases and did not capture the dialogue. It was not used as evidence. Instead, the English subtitles visibly embedded in the downloaded film were read directly from frames:
+
+- Approximately 00:17–00:27: Sonu’s father discusses his mother’s nerves about watching his stunts. The website omits the unrelated discussion about formal studies.
+- Approximately 00:28–00:35: the film includes a discussion of calculated risk. This is presented as part of the film’s conversation, not as safety advice or a claim about flight safety.
+- Approximately 00:36–00:40: Sonu’s father describes daily practice with his guru.
+- Approximately 00:44–00:49: Vicky Thakur describes infinity tumbling as a milestone for an acro pilot. The historical claim about India’s first acro pilot is not repeated.
+
+The introduction’s ground-handling-to-acro progression comes from the uploader’s description. Sonu’s instructor role is supported by his public Instagram profile, rather than inferred from the film. The two caption-based story notes link to the original video at the relevant timestamps. Copy is paraphrased; no dialogue is presented as a direct quotation.
+
 ## Design research
 
 The design is original. References informed the emphasis on athlete identity, flight films, maneuver exploration, and a strong outdoor sporting character:
