@@ -7,7 +7,7 @@ Checked 28 October 2026.
 - [Bir Acro Team Instagram](https://www.instagram.com/biracroteam/): public profile metadata identifies Bir Billing, paragliding courses, acro and tandem acro specialisms, and founder `@airbornesoul`.
 - [Sonu Rajput / airbornesoul](https://www.instagram.com/airbornesoul/): public profile metadata identifies Sonu Rajput, acro pilot and instructor, founder of Bir Acro Team, and association with AntiGravity Paragliding. The public profile image is saved as `public/media/sonu.jpg`.
 - [Facebook page supplied by the user](https://www.facebook.com/profile.php?id=61595552177458): linked directly. No membership or biographical claims were inferred from inaccessible Facebook content.
-- [GitHub organization supplied by the user](https://github.com/Bir-Acro-Team): public API confirmed the organization name and zero public repositories. No remote repository was created.
+- [GitHub organization supplied by the user](https://github.com/Bir-Acro-Team): public API confirmed the organization name and zero public repositories during initial research. At the user’s later request, the website source was pushed to [Bir-Acro-Team/bir-acro-team.github.io](https://github.com/Bir-Acro-Team/bir-acro-team.github.io), with automatic GitHub Pages deployment.
 
 - [Gourav / Flywithme](https://www.instagram.com/fly__with__me____/): public profile metadata identifies Gourav, freestyle paragliding pilot and instructor, and founder of `@biracroteam`. Added at the user’s request. The public profile image is saved as `public/media/gourav.jpg`. Sonu’s verified handle remains `@airbornesoul`; `airbornesould` did not resolve to a profile.
 
