@@ -19,6 +19,14 @@ Checked 28 October 2026.
 
 All original media rights remain with their respective creators.
 
+## Team logo and additional Shorts
+
+- [Freestyle Paragliding Team Facebook page](https://www.facebook.com/people/Freestyle-Paragliding-Team/61595552177458/): the user requested this page’s logo. The public `og:image` was verified visually as the blue-and-charcoal ACRO mark, saved unchanged as `public/media/team-logo.webp`, and used in the header, footer and favicon. The page identity and numeric ID match the Facebook link supplied earlier.
+- [Bir Acro Team YouTube Shorts](https://www.youtube.com/@BirBillingparagliding525/shorts), channel ID `UCrk1BgRF_T9ufBz4xnpVQmg`: supplied by the user as a source of additional footage.
+- [24 September 2025 — selected short](https://www.youtube.com/shorts/3gY4pKu12PI): specifically selected by the user. Full 26-second clip preserved at 1080×1920, encoded for browser playback at 30 fps, with a still extracted at 00:12. Featured first as “Above the valley”, an editorial display label.
+- [24 September 2025 — landing short](https://www.youtube.com/shorts/OI5kBYepw-I): inspected from the same channel and selected for the landing scene. Full clip preserved at 720×1280, encoded for browser playback at 30 fps, with a still extracted at 00:03. Displayed as “Back to earth”, an editorial label.
+- Both clips retain original audio, preserve the full portrait frame, and include links to their original YouTube Shorts. Native video controls provide sound, scrubbing and fullscreen. No pilot identity or specific maneuver attribution was inferred from these clips.
+
 ## Design research
 
 The design is original. References informed the emphasis on athlete identity, flight films, maneuver exploration, and a strong outdoor sporting character:

@@ -1,6 +1,6 @@
 # Bir Acro Team
 
-A responsive React website for Bir Acro Team in Bir Billing. A charcoal, cream and lime visual system frames real flying footage, an interactive canvas maneuver explorer, film dialogs, two member profiles and Instagram enquiry links.
+A responsive React website for Bir Acro Team in Bir Billing. A charcoal, cream and lime visual system frames real flying footage, an interactive canvas maneuver explorer, film dialogs, a dedicated Shorts section, two member profiles and Instagram enquiry links.
 
 ## Run locally
 
@@ -15,12 +15,14 @@ For a production build, run `npm run build`. Serve `dist/` with any static host.
 
 ## Content
 
+- Logo: `public/media/team-logo.webp`, sourced from the Facebook page supplied by the user
+- Shorts layout and native players: `src/shorts.css`
 - Main page and social links: `src/main.jsx`
 - Responsive styling and animation: `src/style.css`; full-frame video layout: `src/video-layout.css`
 - Locally saved images and optimized video: `public/media/`
 - Research and media credits: `SOURCES.md`
 
-The compact hero headline overlays edge-to-edge background footage on desktop and phones. The background fills the hero without a separate video box; the full original framing remains available in the film player. Landscape and portrait film cards preserve their original frame proportions. The hero contains a 27.7-second uncropped 1080p montage from the YouTube film supplied by the user. It includes the aerial shot at 00:41–00:45, infinity tumbling at 00:51–01:10, and the landing at 00:20–00:24.7. It starts muted, has pause and sound controls, and uses a local poster fallback. Motion is paused initially when the visitor requests reduced motion. The full original film opens in a YouTube player; the Instagram reel opens in its original platform embed. Both have direct source links when the platform restricts embedded playback.
+The compact hero headline overlays edge-to-edge background footage on desktop and phones. The background fills the hero without a separate video box; the full original framing remains available in the film player. Landscape and portrait film cards preserve their original frame proportions. The hero contains a 27.7-second uncropped 1080p montage from the YouTube film supplied by the user. It includes the aerial shot at 00:41–00:45, infinity tumbling at 00:51–01:10, and the landing at 00:20–00:24.7. It starts muted, has pause and sound controls, and uses a local poster fallback. Motion is paused initially when the visitor requests reduced motion. The full original film opens in a YouTube player; the Instagram reel opens in its original platform embed. Both have direct source links when the platform restricts embedded playback. Two additional Shorts from the Bir Acro Team YouTube channel play locally in native portrait video players with pause, sound, scrubbing and fullscreen controls. The selected 26-second clip is featured first. The background video pauses while a film dialog is open and resumes according to the visitor’s existing pause setting when it closes.
 
 SAT, helicopter and infinity tumbling animations are artistic illustrations. They are not physical simulations or flying instructions. The controls support pause, half speed and keyboard selection. Film dialogs support Escape and restore keyboard focus. The page includes a mobile navigation menu, expandable FAQs, and an enquiry message copier.
 

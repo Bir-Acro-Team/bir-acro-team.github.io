@@ -1,0 +1,78 @@
+.brand .team-logo {
+  width: 51px;
+  height: 51px;
+  object-fit: contain;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.shorts-heading {
+  margin-top: 65px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 25px;
+}
+.shorts-heading .mono { font-size: 8px; opacity: .55; }
+.shorts-heading h3 { font-size: clamp(30px, 3.2vw, 45px); margin-top: 13px; line-height: 1; }
+.shorts-heading .text-link { margin-top: 0; flex-shrink: 0; }
+.shorts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  max-width: 720px;
+  margin: 35px auto 15px;
+}
+.short-card { padding: 0; text-align: left; min-width: 0; }
+.short-visual {
+  display: block;
+  position: relative;
+  aspect-ratio: 9 / 16;
+  background: var(--ink);
+  overflow: hidden;
+}
+.short-visual img { object-fit: contain; }
+.short-badge, .short-duration {
+  position: absolute;
+  font-family: var(--mono);
+  font-size: 8px;
+  background: #10241fe0;
+  color: var(--paper);
+  padding: 8px 10px;
+}
+.short-badge { top: 17px; left: 17px; }
+.short-duration { bottom: 17px; right: 17px; }
+.short-play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: var(--paper);
+  background: #10241f55;
+  backdrop-filter: blur(5px);
+  border: 1px solid #ffffffb0;
+  transition: background .2s, color .2s;
+}
+.short-card:hover .short-play { background: var(--lime); border-color: var(--lime); color: var(--ink); }
+.short-caption { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 17px 0; font-family: var(--display); font-size: 29px; font-weight: 600; }
+.short-caption small { display: block; font-family: var(--mono); font-size: 7px; font-weight: 400; letter-spacing: .05em; opacity: .55; margin-top: 7px; }
+.short-player { display: block; width: 100%; height: min(72svh, 690px); object-fit: contain; background: #000; }
+@media(max-width:700px) {
+  .brand .team-logo { width: 42px; height: 42px; border-radius: 8px; }
+  .shorts-heading { margin-top: 40px; padding-top: 25px; flex-direction: column; align-items: flex-start; gap: 20px; }
+  .shorts-heading h3 { font-size: 31px; }
+  .shorts-grid { gap: 18px; margin-top: 25px; }
+  .short-caption { font-size: clamp(18px, 5vw, 25px); gap: 5px; padding-top: 13px; }
+  .short-caption > svg { width: 17px; flex-shrink: 0; }
+  .short-caption small { font-size: 5px; line-height: 1.7; }
+  .short-badge { top: 9px; left: 9px; font-size: 5px; padding: 6px; }
+  .short-duration { bottom: 9px; right: 9px; font-size: 6px; padding: 6px; }
+  .short-play { width: 42px; height: 42px; }
+  .short-play svg { width: 19px; }
+}
+@media(prefers-reduced-motion:reduce) { .short-play { transition: none; } }
