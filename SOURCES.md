@@ -50,3 +50,15 @@ The design is original. References informed the emphasis on athlete identity, fl
 - [justACRO videos](https://justacro.com/video): film-led acro community presentation.
 
 No page layouts, copy, logos or source code were copied from these references.
+
+## Wider-team feature — 29 October 2026
+
+The user supplied the local MP4 **Acro Is Not a Crime — It’s a Calling** and its [original Instagram reel](https://www.instagram.com/reel/DRzHbrgAnhZ/), together with the production description. The file runs 84.1 seconds at 1276×720. It is now hosted as `public/media/acro-calling.mp4`, copied without re-encoding and remuxed for fast start.
+
+- The user identifies the featured athletes as Abhishek (`@acroliglide_`) and Gaurav (`@fly__with__me____`), with Rakesh Thakur, Krishna Thakur and Akshu Thakur contributing interviews. The video’s labels confirm Abhishek / Abu and Gaurav / Mithu, plus Akshu and Rakesh.
+- [Abhishek’s public Instagram profile](https://www.instagram.com/acroliglide_/): profile metadata identifies an acro pilot and paragliding instructor, listing both @antigravityparagliding and @biracroteam. No founder claim is made for Abhishek.
+- Embedded English subtitles were read directly. Approximately 00:00–00:28 introduces Abu’s reserved personality and his expressive flying, names Mithu as Rakesh’s preferred pilot to watch, and highlights heli, misty and spin maneuvers. Approximately 00:38–00:52 discusses early family resistance and the decision to continue flying. Site copy paraphrases these ideas without reproducing the dialogue.
+- Portraits: `abhishek.jpg` is a portrait extraction at 00:38; `gaurav.jpg` is a portrait extraction at 00:34. The wider-group still `crew-team.jpg` is extracted at 00:14 and the feature cover at 00:14.5. No generative edits were made. Sonu’s card now uses a ground-gliding still from the original YouTube film at 00:22.
+- Production credits, as supplied by the user: [Fullsend Himalayas](https://www.instagram.com/fullsendhimalayas/), director and editor [@acha_sa_naam](https://www.instagram.com/acha_sa_naam/), and DOP [@abhixdoon](https://www.instagram.com/abhixdoon/). Credits appear next to the feature, in its player, and in the site credits.
+- The ground-gliding shot formerly at the end of the hero is now first. The hero then includes three segments from this new team film and two from the original film. The source films’ original framing is available in their full players; the hero fills the viewport.
+- The prior Sonu-led hero, introduction and community story have been superseded by a team-wide presentation. His original film remains available as a supporting feature.

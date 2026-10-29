@@ -1,6 +1,6 @@
 # Bir Acro Team
 
-A responsive React website for Bir Acro Team in Bir Billing. A charcoal, cream and lime visual system frames real flying footage, an interactive canvas maneuver explorer, film dialogs, a dedicated Shorts section, two member profiles and Instagram enquiry links.
+A responsive React website for Bir Acro Team in Bir Billing. A charcoal, cream and lime visual system frames real flying footage, an interactive canvas maneuver explorer, film dialogs, a dedicated Shorts section, three pilot profiles and Instagram enquiry links.
 
 ## Run locally
 
@@ -16,17 +16,22 @@ For a production build, run `npm run build`. Serve `dist/` with any static host.
 ## Content
 
 - Logo: `public/media/team-logo.webp`, sourced from the Facebook page supplied by the user
+- Wider team layout and feature player: `src/team.css`
 - Shorts layout and native players: `src/shorts.css`
 - Main page and social links: `src/main.jsx`
 - Responsive styling and animation: `src/style.css`; full-frame video layout: `src/video-layout.css`
 - Locally saved images and optimized video: `public/media/`
 - Research and media credits: `SOURCES.md`
 
-The hero and story text now describe Sonu’s progression, with two story notes paraphrased from the film’s embedded English subtitles and linked to the original timestamps. Automatic captions were inaccurate and were not used as evidence. The compact hero headline overlays edge-to-edge background footage on desktop and phones. The background fills the hero without a separate video box; the full original framing remains available in the film player. Landscape and portrait film cards preserve their original frame proportions. The hero contains a 27.7-second uncropped 1080p montage from the YouTube film supplied by the user. It includes the aerial shot at 00:41–00:45, infinity tumbling at 00:51–01:10, and the landing at 00:20–00:24.7. It starts muted, has pause and sound controls, and uses a local poster fallback. Motion is paused initially when the visitor requests reduced motion. The full original film opens in a YouTube player; the Instagram reel opens in its original platform embed. Both have direct source links when the platform restricts embedded playback. Two additional Shorts from the Bir Acro Team YouTube channel play locally in native portrait video players with pause, sound, scrubbing and fullscreen controls. The selected 26-second clip is featured first. The background video pauses while a film dialog is open and resumes according to the visitor’s existing pause setting when it closes.
+The page centres the wider Bir Billing flying community. Abhishek (Abu), Gaurav (Mithu) and Sonu have individual profiles and photographs, with additional voices from Rakesh, Krishna and Akshu Thakur. The lead feature is **Acro Is Not a Crime — It’s a Calling**, the 84-second film supplied by the user. Its complete original 1276×720 video is hosted locally at `public/media/acro-calling.mp4`, remuxed with fast-start metadata and no video re-encoding. The player has native pause, sound, scrubbing and fullscreen controls, and credits Fullsend Himalayas, director/editor @acha_sa_naam and DOP @abhixdoon. Sonu’s earlier YouTube film remains as a supporting story.
+
+The 33.2-second hero montage opens with the requested ground-gliding/landing shot (the original YouTube film at 00:20–00:24.7). It then uses the new team feature at 00:15–00:20.5, 00:48–00:54.5 and 01:00–01:06.5, followed by the original film at 00:41–00:45 and 00:51–00:57. The montage is normalized to 1920×1080 at 30 fps; the team film’s native resolution is 1276×720. Compact text overlays the edge-to-edge footage, which starts muted and offers pause and sound controls. Reduced-motion visitors initially see a still poster.
+
+Landscape and portrait film cards preserve their proportions. Two Bir Acro Team Shorts play locally, and the earlier Instagram reel is embedded from its source. The background pauses whenever a film dialog opens and resumes according to the visitor’s existing pause setting when it closes. Dialogs close with Escape and restore keyboard focus.
 
 SAT, helicopter and infinity tumbling animations are artistic illustrations. They are not physical simulations or flying instructions. The controls support pause, half speed and keyboard selection. Film dialogs support Escape and restore keyboard focus. The page includes a mobile navigation menu, expandable FAQs, and an enquiry message copier.
 
-Member cards feature Sonu Rajput (`@airbornesoul`) and Gourav (`@fly__with__me____`). Both publicly identify as founders of Bir Acro Team and paragliding instructors; Sonu identifies as an acro pilot and Gourav as a freestyle pilot. Additional members, achievements, prices and flight availability should be confirmed with the team before adding them.
+Member cards feature Abhishek (`@acroliglide_`), Gaurav (`@fly__with__me____`) and Sonu Rajput (`@airbornesoul`). Abhishek’s Instagram identifies him as an acro pilot, instructor and member of both teams. The new feature labels Abhishek as Abu and Gaurav as Mithu. The display spelling Gaurav follows the film and the user’s supplied caption; his Instagram currently spells the name Gourav. Sonu’s profile remains alongside the other pilots. No new membership or founder status is inferred for the three local pilots interviewed in the film.
 
 ## Validation
 
