@@ -16,8 +16,8 @@ const shorts=[
 const YT='https://www.youtube.com/watch?v=eos-w5HGW8Y';
 const CALLING='https://www.instagram.com/reel/DRzHbrgAnhZ/';
 const members=[
- {name:'ABHISHEK',alias:'ABU',handle:'acroliglide_',photo:'abhishek-flight.jpg',role:'ACRO PILOT / INSTRUCTOR',bio:'Known as Abu. Local pilots describe his quiet personality and expressive acro flying.'},
- {name:'GAURAV',alias:'MITHU',handle:'fly__with__me____',photo:'gaurav-flight.jpg',role:'FOUNDER / ACRO PILOT',bio:'Known as Mithu. Rakesh names him as a favourite to watch; the feature highlights heli, misty and spin maneuvers.'},
+ {name:'ABHISHEK',alias:'ABU',handle:'acroliglide_',photo:'abhishek.jpg',role:'ACRO PILOT / INSTRUCTOR',bio:'Known as Abu. Local pilots describe his quiet personality and expressive acro flying.'},
+ {name:'GAURAV',alias:'MITHU',handle:'fly__with__me____',photo:'gaurav-paired-flight.jpg',role:'FOUNDER / ACRO PILOT',bio:'Known as Mithu. Rakesh names him as a favourite to watch; the feature highlights heli, misty and spin maneuvers.'},
  {name:'SONU RAJPUT',alias:'SONU',handle:'airbornesoul',photo:'sonu-flight.jpg',role:'FOUNDER / ACRO PILOT',bio:'Acro pilot and instructor. His student-to-pilot journey is told in the AntiGravity feature, alongside the wider team’s stories.'}
 ];
 const maneuvers=[
