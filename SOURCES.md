@@ -70,3 +70,5 @@ The user provided an oral recollection in Hindi/Hinglish and explicitly asked fo
 - Crew card action photos: `abhishek-flight.jpg` is extracted at 01:06.2 and `gaurav-flight.jpg` at 00:53.5 from the supplied feature. The user paired Abhishek’s interview image with the two-pilot flying shot; that selection determines the card assignment. Both frames retain the full source framing. These replace the interview closeups on the crew cards.
 
 - User correction: the supplied two-pilot flying screenshot is selected for Gaurav. `gaurav-paired-flight.jpg` uses its clean source frame at 01:06.2, without the screenshot’s player borders. Abhishek’s card returns to his interview portrait at 00:38. This supersedes the previous action-photo assignment.
+
+- Final user-selected Abhishek photo: `abhishek-selected-flight.jpg`, source feature at 00:27.75, showing the black-helmeted pilot below the white wing. Gaurav retains the user-selected two-pilot frame at 01:06.2.
