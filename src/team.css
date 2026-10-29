@@ -3,6 +3,14 @@
 .crew-photo { height: auto; aspect-ratio: 1276 / 720; background: var(--ink); }
 .crew-photo img { object-fit: contain; filter: none; }
 .crew-photo::after { display: none; }
+.origin-story { margin-top: 52px; padding-top: 32px; border-top: 1px solid var(--line); }
+.origin-heading > .mono { font-size: 8px; opacity: .6; }
+.origin-heading h3 { font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; margin-top: 15px; }
+.story-chapters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 7%; margin-top: 32px; }
+.story-chapters > article { display: flex; align-items: flex-start; gap: 18px; padding-top: 22px; border-top: 1px solid var(--line); }
+.story-chapters > article > .mono { font-size: 8px; opacity: .5; padding-top: 5px; flex-shrink: 0; }
+.story-chapters h4 { font-family: var(--display); font-size: 29px; font-weight: 600; line-height: 1.1; margin: 0; }
+.story-chapters p { font-size: 13px; line-height: 1.85; opacity: .75; margin-top: 13px; }
 .calling-feature { margin-bottom: 35px; }
 .calling-card { display: block; width: 100%; aspect-ratio: 1276 / 720; }
 .calling-card .film-caption { font-size: clamp(27px, 4.2vw, 62px); }
@@ -42,6 +50,13 @@
   .member-card > p { min-height: 110px; }
 }
 @media(max-width:700px) {
+  .origin-story { margin-top: 35px; padding-top: 25px; }
+  .origin-heading > .mono { font-size: 6px; }
+  .origin-heading h3 { font-size: 34px; }
+  .story-chapters { grid-template-columns: 1fr; gap: 24px; margin-top: 25px; }
+  .story-chapters > article { gap: 13px; }
+  .story-chapters h4 { font-size: 27px; }
+  .story-chapters p { font-size: 12px; }
   .intro h2, .films-title h2 { font-size: 52px; }
   .crew-copy h2 { font-size: 52px; }
   .calling-card .film-caption { font-size: clamp(22px, 5.4vw, 35px); bottom: 32px; }
